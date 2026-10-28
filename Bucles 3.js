@@ -1,14 +1,13 @@
 
-let ancho = Number(prompt("Ingrese el ancho de la imagen en pixeles;"));
+let usuario = prompt("Ingrese el nombre de usuario ;");
+let contraseña = prompt("Ingrese la contraseña");
 
-if (ancho >= 1280) {
-  alert ("Resolucion baja");
-  console.log ("Resolucion baja");
-
-} else if (ancho < 1920) {
-  alert ("HD");
-  console.log ("HD");
+if (usuario === "admin" && contraseña === "123456") {
+  alert ("Acceso permitido");
+  console.log ("Acceso permitido");
 } else {
-  alert ("Full HD o superior");
-  console.log ("Full HD o superior");
+  alert ("Acceso denegado");
+  console.log ("Acceso denegado");
 }
+
+  

@@ -9,5 +9,3 @@ if (edad >=18) {
   alert("acceso denegado")
   console.log ("Acceso denegado");
 }
-
-
